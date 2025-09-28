@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://conaac.co.za/sitemap.xml
+
+# Block admin/private areas (add as needed)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
